@@ -8,7 +8,7 @@ Install a Keyman keyboard package
 ## Syntax
 
 ```bash
-km-package-install [-h] [-s] [-f KMPFILE] [-p PACKAGE] [-l LANGTAG] [--version] [-v] [-vv]
+km-package-install [-h] [-s] [-f KMPFILE] [-p PACKAGE] [-l LANGTAG] [--force] [--version] [-v] [-vv]
 ```
 
 ### Parameters
@@ -32,6 +32,11 @@ Keyman package id
 `-l LANGTAG`, `--bcp47 LANGTAG` <br>
 __optional__ <br>
 bcp47 language tag
+
+`--force` <br>
+__optional__ <br>
+force installation of keyboard even if it is a
+downgrade to an older version of the keyboard
 
 `--version` <br>
 __optional__ <br>
